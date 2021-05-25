@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/stylepagetwo.css">
 	<link rel="stylesheet" href="./css/cssswup.css">
 	<link rel="stylesheet" href="./css/addservice.css">
+	<link rel="stylesheet" href="./css/deleteservice.css">
 </head>
 
 <body>
@@ -42,14 +43,21 @@
 ?>
 </table>
 
-<form id="OpacityChange" action="" method="post" class="form-wrapper">
+<form id="OpacityChange" action="./db/AddService.php" method="post" class="form-wrapper">
         <fieldset class="section is-active">
           <h3>Добавить</h3>
           <input type="text" name="Name" placeholder="Название">
-          <input type="text" name="Model" placeholder="Л.С.">
+          <input type="text" name="Model" placeholder="Модель">
           <input type="text" name="PowerOutput" placeholder="Объем">
-          <input type="text" name="Volume" placeholder="Модель">
+          <input type="text" name="Volume" placeholder="Л.С.">
 		  <button onclick="OpacityChange0()" class="button" type="submit">Add</button>
+        </fieldset>
+</form>
+<form id="OpacityChange" action="./db/DeleteService.php" method="post" class="form-delete">
+         <fieldset class="section is-active">
+          <h3>Удалить</h3>
+          <input type="text" name="Id" placeholder="Айди">
+		  <button onclick="OpacityChange0()" class="button" type="submit">Delete</button>
         </fieldset>
 </form>
 </main>

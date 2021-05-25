@@ -199,7 +199,7 @@ body {
 .el__heading {
   color: #fff;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 10px;
 }
 .el__content {
   z-index: -1;

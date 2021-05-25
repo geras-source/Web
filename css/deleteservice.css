@@ -1,25 +1,7 @@
-.form-wrapper{
-	opacity: 0;
+.form-delete{
+	opacity: 1;
+	margin-top:300px;
 }
-h1, h2, h3, h4, h5 ,h6{
-  font-weight: 300;
-  margin: 10px;
-}
-
-a{
-  text-decoration: none;
-}
-
-p, li, a{
-  font-size: 14px;
-}
-
-fieldset{
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
 /* GRID */
 
 .twelve { width: 100%; }
@@ -104,7 +86,7 @@ fieldset{
 
 /* FORM */
 
-.form-wrapper .section{
+.form-delete .section{
   padding: 0px 20px 30px 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -129,11 +111,11 @@ fieldset{
   min-height: 300px
 }
 
-.form-wrapper .section h3{
+.form-delete .section h3{
   margin-top: 30px;
 }
 
-.form-wrapper .section.is-active{
+.form-delete .section.is-active{
   opacity: 1;
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -141,7 +123,7 @@ fieldset{
   transform: scale(1, 1);
 }
 
-.form-wrapper .button, .form-wrapper .submit{
+.form-delete .button, .form-delete .submit{
   padding: 8px 30px;
   color: #666;
   font-size: 14px !important;
@@ -151,7 +133,7 @@ fieldset{
   bottom: 20px;
 }
 
-.form-wrapper .submit{
+.form-delete .submit{
   border: none;
   outline: none;
   -webkit-box-sizing: content-box;
@@ -162,8 +144,8 @@ fieldset{
   appearance: none;
 }
 
-.form-wrapper input[type="text"],
-.form-wrapper input[type="password"]{
+.form-delete input[type="text"],
+.form-delete input[type="password"]{
   display: block;
   padding: 10px;
   margin: 10px auto;
@@ -175,11 +157,11 @@ fieldset{
   font-family: 'Open Sans', sans-serif !important;
 }
 
-.form-wrapper input[type="radio"]{
+.form-delete input[type="radio"]{
   display: none;
 }
 
-.form-wrapper input[type="radio"] + label{
+.form-delete input[type="radio"] + label{
   display: block;
   border: 1px solid #ccc;
   width: 100%;
@@ -192,7 +174,7 @@ fieldset{
   position: relative;
 }
 
-.form-wrapper input[type="radio"] + label:before{
+.form-delete input[type="radio"] + label:before{
   content: "✔";
   position: absolute;
   right: -10px;
@@ -206,20 +188,19 @@ fieldset{
   display: none;
 }
 
-.form-wrapper input[type="radio"]:checked + label:before{
+.form-delete input[type="radio"]:checked + label:before{
   display: block;
 }
 
-.form-wrapper input[type="radio"] + label h4{
+.form-delete input[type="radio"] + label h4{
   margin: 15px;
   color: #ccc;
 }
 
-.form-wrapper input[type="radio"]:checked + label{
+.form-delete input[type="radio"]:checked + label{
   border: 1px solid #3498db;
 }
 
-.form-wrapper input[type="radio"]:checked + label h4{
+.form-delete input[type="radio"]:checked + label h4{
   color: #3498db;
 }
-

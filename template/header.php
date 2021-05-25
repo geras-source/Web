@@ -8,7 +8,7 @@
 
 </head>
 
-<body translate="no">
+<body>
   <header id="header" class="header header--fixed hide-from-print animated headroom--not-bottom slideDown headroom--top" role="banner">
     <div class="container">
     
